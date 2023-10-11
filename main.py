@@ -316,12 +316,12 @@ class MyServer(BaseHTTPRequestHandler):
         </main>
         <main class="row">
             <div class="row text-center">
-                <div class="col-5">
-                    FAQ
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h3>FAQ</h3>
                      </div>
                 </div>
             <div class="row">
-                <div class="col-10">
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
                     <p class="d-inline-flex gap-1">
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     Как купить?
@@ -377,6 +377,7 @@ class MyServer(BaseHTTPRequestHandler):
 </script>
 </body>
 </html>
+
 """
 
     def do_GET(self):
